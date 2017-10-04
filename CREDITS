@@ -1,0 +1,48 @@
+ACKNOWLEDEGMENT
+==============
+
+The development of openEAR has received funding
+from the European Community's Seventh Framework
+Programme (FP7/2007-2013) under grant agreement No.
+211486 (SEMAINE)
+
+
+******************************************************************
+* We would like to thank the following people for their support: *
+******************************************************************
+
+Felix Burkhardt (DTAG)
+  - For giving us permission to distribute an EmoDB model
+
+Roddy Cowie (Queens University Belfast) 
+  - For providing us with the SAL corpus and allowing us to distribute models 
+
+
+
+ACKNOWLEDEGMENT
+==============
+
+The development of openSMILE has received funding
+from the European Community's Seventh Framework
+Programme (FP7/2007-2013) under grant agreement No.
+211486 (SEMAINE)
+
+
+*******************************************************************************
+** We would like to thank the following people for contributing to openSMILE **
+*******************************************************************************
+
+Christoph Kozielski (TUM student), 
+  - helped to fix many bugs in various components (toneSpec, ...), 
+  - pointed out some missing essential features, 
+  - implemented the Chroma component, 
+  - helped with compilation on Windows and Mingw32.
+
+Benedikt Gollan (TUM student), 
+  - helped integrating openSMILE into Qt GUI's (work in progress), 
+  - implemented the chromaFeatures component, 
+  - helped with compilation under windows/mingw.
+
+Witali Aswolinskiy (TUM student),
+  - integration of an on-line version of RNNLIB (for LSTM) into openSMILE
+  

@@ -1,0 +1,73 @@
+
+                          openEAR
+  - the Munich open Emotion and Affect Recognition toolkit -
+  
+  Copyright (C) 2008-2009  
+    by Florian Eyben, Martin Woellmer, Bjoern Schuller
+  
+    Institute for Human-Machine Communication
+    Technische Universitaet Muenchen (TUM)
+    D-80333 Munich, Germany
+
+   eyben at tum.de , woellmer at tum.de , schuller at tum.de 
+
+ >> Please do also have a look at the files CREDITS and CREDITS.openEAR
+ for acknowledgements of additional contributors. <<
+ 
+ *******************************NOTE:*********************************** 
+ If you use openEAR/openSMILE or any code from it in your research work,
+ you are kindly asked to acknowledge the use of openEAR in your publications
+ by citing the following paper:
+
+  Florian Eyben, Martin Wöllmer, Björn Schuller: 
+  "openEAR - Introducing the Munich Open-Source Emotion and Affect Recognition Toolkit", 
+  to appear in Proc. 4th International HUMAINE Association Conference on Affective Computing and Intelligent Interaction 2009 
+  (ACII 2009), IEEE, Amsterdam, The Netherlands, 10.-12.09.2009
+
+ ***********************************************************************
+
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details (file: COPYING).
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+ See the file COPYING for details
+
+About openEAR:
+================
+
+openEAR is a complete and open toolkit for audio analysis, processing and classification especially targeted at speech and emotion recognition.
+The toolkit is developed at the Institute for Human-Machine Communication at the Technische Universitaet Muenchen in Munich, Germany.
+It was started withtin the SEMAINE EU FP7 research project.
+
+The following main components are currently available in openEAR:
+
+ * SMILExtract   -  Standalone commandline feature extractor and live recogniser (source code in src/)
+ * config/       -  Various example configuration files
+ * models/       -  Pre-trained emotion recognition models
+ * doc/          -  Introductory tutorial and developer's documentation
+ 
+Third-party dependencies:
+=========================
+
+openSMILE uses LibSVM (by Chih-Chung Chang and Chih-Jen Lin) for classification tasks. It is included in the svm/ directory in the release.
+
+PortAudio is required for live recording from sound card and for the SEMAINE component.
+You can get it from: http://www.portaudio.com
+
+More optional third-party dependencies include the Julius LVCSR engine and Alex Graves' RNNLIB.
+
+Documentation:
+===============
+
+** For more documentation, please read the file doc/openEAR_tutorial.pdf **
+

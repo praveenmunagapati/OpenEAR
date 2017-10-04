@@ -1,0 +1,7 @@
+
+For a list of components see the classes.txt file.
+
+Next to the -H option, we will soon implement an option for printing a list of components with a functional description of each component (as specified in the header file of each component).
+
+
+
